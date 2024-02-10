@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  @apply text-base;
+
+  color: #0f0f0f;
+  background: transparent;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.titlebar-button {
+  @apply transition-all;
+  @apply h-full;
+  @apply w-12;
+  @apply flex justify-center items-center;
+  @apply hover:bg-neutral-800;
+}
+
+.body {
+
+}
+
+html, body {background: transparent;}

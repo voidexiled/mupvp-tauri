@@ -1,0 +1,23 @@
+.no_selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+.custom_scrollbar::-webkit-scrollbar { width: 6px; height: 3px; }
+.custom_scrollbar::-webkit-scrollbar-button { @apply bg-base-300; }
+.custom_scrollbar::-webkit-scrollbar-track {  @apply bg-base-300;}
+.custom_scrollbar::-webkit-scrollbar-track-piece { @apply bg-base-300;}
+::-webkit-scrollbar-thumb { height: 10px; @apply bg-fuchsia-950/80; border-radius: 3px; }
+.custom_scrollbar::-webkit-scrollbar-corner { background-color: #646464;}
+.custom_scrollbar::-webkit-resizer { background-color: #666;}
+
+
+
+
+
